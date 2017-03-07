@@ -4,11 +4,21 @@ using UnityEngine;
 
 public class FireShot : MonoBehaviour {
 
+    //Public Settings
     public int fireRate;
+    public int magSize;
+    public BulletHandler handler;
+ 
+    
+    //Data
     int currFireRate;
+    int currMagSize;
+
+
     // Use this for initialization
     void Start () {
         currFireRate = fireRate;
+        currMagSize = magSize;
 	}
 	
 	// Update is called once per frame
@@ -17,6 +27,7 @@ public class FireShot : MonoBehaviour {
         if (Input.GetMouseButton(0))
         {
             currFireRate++;
+            
             if (currFireRate >= fireRate)
             {
                 currFireRate = 0;
@@ -27,7 +38,8 @@ public class FireShot : MonoBehaviour {
 
                 if (Physics.Raycast(shotRay, out shotHit, Mathf.Infinity))
                 {
-                    animateShot(shotOrigin, shotHit.point);
+                    
+                    handler.animateShot(shotHit.point);
 
                     if (shotHit.transform.GetComponent<isEnemy>())
                     {
@@ -45,14 +57,5 @@ public class FireShot : MonoBehaviour {
         }
 		
 	}
-
-    void animateShot(Vector3 shotOrigin, Vector3 shotPoint)
-    {
-        LineRenderer shotVisual = GetComponent<LineRenderer>();
-
-        shotVisual.SetPosition(0, shotOrigin);
-        shotVisual.SetPosition(1, shotPoint);
-    }
-
 
 }
