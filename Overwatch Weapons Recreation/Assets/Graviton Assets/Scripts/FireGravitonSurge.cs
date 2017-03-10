@@ -20,7 +20,7 @@ public class FireGravitonSurge : MonoBehaviour {
     GameObject gravShot;
 
 	void Update () {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(1))
         {
             //Play Sound Effect
             GetComponent<AudioSource>().Play();

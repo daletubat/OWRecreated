@@ -11,7 +11,7 @@ public class PlayerHealth : MonoBehaviour {
     GameObject healthbar; //UI Component of the healthbar
 
     //Player Data
-    int currentHealth;
+    float currentHealth;
 
 	void Start () {
         currentHealth = totalHealth;
@@ -20,7 +20,7 @@ public class PlayerHealth : MonoBehaviour {
 	
 
     //Decrease this player's current health by hitVal
-    public void decreaseHealth(int hitVal)
+    public void decreaseHealth(float hitVal)
     {
         if (currentHealth > 0)
         {
@@ -36,5 +36,10 @@ public class PlayerHealth : MonoBehaviour {
             healthbarPos.x = healthbar.transform.parent.transform.position.x + healthRatio-1;
             healthbar.transform.position = healthbarPos;
         }
+        else
+        {
+            Destroy(gameObject);
+        }
+
     }
 }

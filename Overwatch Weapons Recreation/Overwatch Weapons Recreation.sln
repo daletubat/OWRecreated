@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overwatch Weapons Recreation.CSharp.Plugins", "Overwatch Weapons Recreation.CSharp.Plugins.csproj", "{2043E2E2-E611-681F-C0B1-F5B399B5A031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overwatch Weapons Recreation.CSharp", "Overwatch Weapons Recreation.CSharp.csproj", "{8CD6A83B-9888-23AE-2DAF-7B9B17E17AB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2043E2E2-E611-681F-C0B1-F5B399B5A031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2043E2E2-E611-681F-C0B1-F5B399B5A031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2043E2E2-E611-681F-C0B1-F5B399B5A031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2043E2E2-E611-681F-C0B1-F5B399B5A031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD6A83B-9888-23AE-2DAF-7B9B17E17AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD6A83B-9888-23AE-2DAF-7B9B17E17AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD6A83B-9888-23AE-2DAF-7B9B17E17AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD6A83B-9888-23AE-2DAF-7B9B17E17AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

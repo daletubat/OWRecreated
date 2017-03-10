@@ -8,18 +8,11 @@ public class BulletHandler : MonoBehaviour {
     public BulletRenderer bullets;
     public GameObject bulletOriginObject;
     public float bulletSize;
+
+
     //Data
     Vector3 bulletOrigin;
-    float bulletDur = .1f;
-
-	void Start () {
-        
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    float bulletDur = .06f;	
 
     public void animateShot(Vector3 shotPoint)
     {
@@ -34,17 +27,14 @@ public class BulletHandler : MonoBehaviour {
         LineRenderer shotVisual = currRenderer.GetComponent<LineRenderer>();
 
         bulletOrigin = bulletOriginObject.transform.position;
-
+        shotVisual.enabled = true;
         StartCoroutine(animateBullet(shotPoint, shotVisual));
-
-        //shotVisual.SetPosition(0, bulletOrigin);
-        //shotVisual.SetPosition(1, shotPoint);
-
+        //shotVisual.enabled = false;
     }
 
     IEnumerator animateBullet(Vector3 shotPoint, LineRenderer shotVisual) {
 
-        shotVisual.enabled = true;
+        
         
         Vector3 bulletTrajectory = shotPoint - bulletOrigin;
         Vector3 bulletScale = Vector3.Normalize(bulletTrajectory);
@@ -57,7 +47,7 @@ public class BulletHandler : MonoBehaviour {
             yield return null;
         }
 
-        shotVisual.enabled = false;
+
     }
 
 }

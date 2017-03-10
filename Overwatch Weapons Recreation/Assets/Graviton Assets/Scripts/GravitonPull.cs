@@ -47,9 +47,13 @@ public class GravitonPull : MonoBehaviour {
             foreach (Collider collider in objectsInRadius)
             {
                 GameObject obj = collider.gameObject;
-                if (obj.GetComponent<isKinematic>())
+
+                //Cease the locomotion of the enemy until after the graviton;
+                if (obj.GetComponent<EnemyLocomotion>())
                 {
+                    obj.GetComponent<EnemyLocomotion>().enabled = false;
                     PullObject(obj);
+                    obj.GetComponent<EnemyLocomotion>().enabled = true; 
                 }
             }
         }
@@ -89,7 +93,7 @@ public class GravitonPull : MonoBehaviour {
     //Pull objects towards the center of the graviton
     void PullObject(GameObject obj)
     {
-        Debug.Log("Pulling");
+       
 
         //Calculate the center of the graviton
         Vector3 pullCenter = -(obj.transform.position - epicenter);
