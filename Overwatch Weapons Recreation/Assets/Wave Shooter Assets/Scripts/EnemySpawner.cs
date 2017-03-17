@@ -7,6 +7,7 @@ public class EnemySpawner : MonoBehaviour {
     //Public Settings
     public GameObject enemyPrefab;
     public GameObject destination;
+    public EnemyDeathSoundManager sound;
     public float spawnTime;
     public float spawnDelay;
 
@@ -27,6 +28,7 @@ public class EnemySpawner : MonoBehaviour {
             timer = 0;
             GameObject enemy = Instantiate(enemyPrefab, transform.position, Quaternion.identity);
             enemy.GetComponent<EnemyLocomotion>().destination = destination.transform;
+            enemy.GetComponent<PlayerHealth>().sound = sound;
         }
 	}
 }

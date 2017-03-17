@@ -6,16 +6,20 @@ public class PlayerHealth : MonoBehaviour {
 
     //Public Settings
     public int totalHealth;
+    public EnemyDeathSoundManager sound;
 
     //InGame Objects
     GameObject healthbar; //UI Component of the healthbar
 
     //Player Data
     float currentHealth;
+    AudioSource deathSound;
+
 
 	void Start () {
         currentHealth = totalHealth;
-        healthbar = transform.GetChild(0).transform.GetChild(1).gameObject;		
+        healthbar = transform.GetChild(0).transform.GetChild(1).gameObject;
+
 	}
 	
 
@@ -38,6 +42,7 @@ public class PlayerHealth : MonoBehaviour {
         }
         else
         {
+            sound.Play();
             Destroy(gameObject);
         }
 

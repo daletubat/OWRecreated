@@ -11,7 +11,7 @@ public class FireShot : MonoBehaviour {
     public float bullSpread;
     public float falloffDistance; //distance at which the bullets begin to lose inaccuracy
     public BulletHandler handler;
-
+    
     
     //Data
     int currFireRate;
@@ -19,6 +19,10 @@ public class FireShot : MonoBehaviour {
     bool spreadApplied;
     int fired; //shots fired
     int landed; //shots landed
+
+    //Audio Sources
+    AudioSource audioPrimary;
+    AudioSource audioSencondary;
 
 
     void Start () {
@@ -28,6 +32,9 @@ public class FireShot : MonoBehaviour {
 
         fired = 0;
         landed = 0;
+
+        var aSources = GetComponents<AudioSource>();
+        audioPrimary = aSources[1];
     }
 	
 
@@ -46,6 +53,7 @@ public class FireShot : MonoBehaviour {
             currFireRate++;
             if (currFireRate >= fireRate)
             {
+
                 //Bullet has been fired; reset the counter
                 currFireRate = 0;
                 fired++;
@@ -63,6 +71,9 @@ public class FireShot : MonoBehaviour {
 
                 if (Physics.Raycast(shotRay, out shotHit, Mathf.Infinity))
                 {
+                    //Play Bullet Sound
+                    audioPrimary.Play();
+
                     //Calculate the distance of the shot
                     float distance = Vector3.Distance(shotOrigin, shotHit.point);
 
