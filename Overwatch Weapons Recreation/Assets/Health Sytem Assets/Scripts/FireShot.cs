@@ -45,9 +45,9 @@ public class FireShot : MonoBehaviour {
             Debug.Log("help");
         }
 
+        float triggerdown = OVRInput.Get(OVRInput.RawAxis1D.RIndexTrigger);
 
-
-        if (Input.GetMouseButton(0))
+        if (triggerdown > 0.5f)
         {
 
             currFireRate++;
@@ -130,7 +130,7 @@ public class FireShot : MonoBehaviour {
 
         }
 
-        if (Input.GetMouseButtonUp(0))
+        if (OVRInput.GetUp(OVRInput.Button.One))
         {
             currFireRate = fireRate;
         }

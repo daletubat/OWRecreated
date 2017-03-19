@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Wave Shooter.unity
+- path: D:/daledaledale/CSE165-Project2/Assets/Scenes/Project 2.unity
   isLoaded: 1
   isActive: 1
