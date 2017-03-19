@@ -12,7 +12,8 @@ public class BulletHandler : MonoBehaviour {
 
     //Data
     Vector3 bulletOrigin;
-    float bulletDur = .06f;	
+    float bulletDur = .06f;
+    float startTime;
 
     public void animateShot(Vector3 shotPoint)
     {
@@ -33,17 +34,18 @@ public class BulletHandler : MonoBehaviour {
     }
 
     IEnumerator animateBullet(Vector3 shotPoint, LineRenderer shotVisual) {
+        startTime = Time.time;
 
-        
-        
         Vector3 bulletTrajectory = shotPoint - bulletOrigin;
         Vector3 bulletScale = Vector3.Normalize(bulletTrajectory);
+        
 
         for (float i = 0; i < bulletDur; i += Time.deltaTime)
         {
-            float ratio = i / bulletDur;
-            shotVisual.SetPosition(0, bulletOrigin + (bulletTrajectory * ratio) - (bulletScale*bulletSize));
-            shotVisual.SetPosition(1, bulletOrigin + (bulletTrajectory*ratio));
+            float disCovered = (Time.time - startTime) * 3;
+            float ratio = bulletDur;
+            shotVisual.SetPosition(0, bulletOrigin + (bulletTrajectory * disCovered) - (bulletScale*bulletSize));
+            shotVisual.SetPosition(1, bulletOrigin + (bulletTrajectory*disCovered));
             yield return null;
         }
 
