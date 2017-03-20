@@ -1,0 +1,278 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_5_1
+-define:UNITY_5_5
+-define:UNITY_5
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VIDEO
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:CROSS_PLATFORM_INPUT
+Assets/EnemyDeathSoundManager.cs
+"Assets/General Scripts/Identifiers/isAlly.cs"
+"Assets/General Scripts/Identifiers/isEnemy.cs"
+"Assets/General Scripts/Identifiers/isKinematic.cs"
+"Assets/General Scripts/Identifiers/isTerrain.cs"
+"Assets/Graviton Assets/Scripts/FireGravitonSurge.cs"
+"Assets/Graviton Assets/Scripts/GravitonAnimation.cs"
+"Assets/Graviton Assets/Scripts/GravitonPull.cs"
+"Assets/Health Sytem Assets/Scripts/BulletHandler.cs"
+"Assets/Health Sytem Assets/Scripts/BulletRenderer.cs"
+"Assets/Health Sytem Assets/Scripts/FireShot.cs"
+"Assets/Health Sytem Assets/Scripts/HealthFaceUser.cs"
+"Assets/Health Sytem Assets/Scripts/PlayerHealth.cs"
+"Assets/Health Sytem Assets/Scripts/ShotAnimation.cs"
+Assets/OVR/Oculus/OVR/Scripts/OVRBoundary.cs
+Assets/OVR/Oculus/OVR/Scripts/OVRCameraRig.cs
+Assets/OVR/Oculus/OVR/Scripts/OVRCommon.cs
+Assets/OVR/Oculus/OVR/Scripts/OVRDebugHeadController.cs
+Assets/OVR/Oculus/OVR/Scripts/OVRDisplay.cs
+Assets/OVR/Oculus/OVR/Scripts/OVRHaptics.cs
+Assets/OVR/Oculus/OVR/Scripts/OVRHapticsClip.cs
+Assets/OVR/Oculus/OVR/Scripts/OVRInput.cs
+Assets/OVR/Oculus/OVR/Scripts/OVRManager.cs
+Assets/OVR/Oculus/OVR/Scripts/OVROnCompleteListener.cs
+Assets/OVR/Oculus/OVR/Scripts/OVROverlay.cs
+Assets/OVR/Oculus/OVR/Scripts/OVRPlatformMenu.cs
+Assets/OVR/Oculus/OVR/Scripts/OVRPlugin.cs
+Assets/OVR/Oculus/OVR/Scripts/OVRProfile.cs
+Assets/OVR/Oculus/OVR/Scripts/OVRTouchpad.cs
+Assets/OVR/Oculus/OVR/Scripts/OVRTracker.cs
+Assets/OVR/Oculus/OVR/Scripts/Util/OVRChromaticAberration.cs
+Assets/OVR/Oculus/OVR/Scripts/Util/OVRCubemapCapture.cs
+Assets/OVR/Oculus/OVR/Scripts/Util/OVRDebugInfo.cs
+Assets/OVR/Oculus/OVR/Scripts/Util/OVRGridCube.cs
+Assets/OVR/Oculus/OVR/Scripts/Util/OVRModeParms.cs
+Assets/OVR/Oculus/OVR/Scripts/Util/OVRMonoscopic.cs
+Assets/OVR/Oculus/OVR/Scripts/Util/OVRPlayerController.cs
+Assets/OVR/Oculus/OVR/Scripts/Util/OVRRTOverlayConnector.cs
+Assets/OVR/Oculus/OVR/Scripts/Util/OVRResetOrientation.cs
+Assets/OVR/Oculus/OVR/Scripts/Util/OVRSceneSampleController.cs
+Assets/OVR/Oculus/OVR/Scripts/Util/OVRScreenFade.cs
+Assets/OVR/Oculus/OVR/Scripts/Util/OVRWaitCursor.cs
+Assets/OVR/OvrAvatar/Samples/GripPoses/Scripts/PoseEditHelper.cs
+Assets/OVR/OvrAvatar/Samples/RemoteLoopback/Scripts/RemoteLoopbackManager.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatar.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarAsset.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarAssetMesh.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarAssetTexture.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarBase.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarBody.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarComponent.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarDriver.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarHand.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarLocalDriver.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarPacket.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarProjectorRenderComponent.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarRemoteDriver.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarRenderComponent.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarSDKCAPI.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarSDKManager.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarSettings.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarSettingsEditor.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarSkinnedMeshRenderComponent.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarSkinnedMeshRenderPBSComponent.cs
+Assets/OVR/OvrAvatar/Scripts/OvrAvatarTouchController.cs
+Assets/OVR/Scripts/Button.cs
+Assets/OVR/Scripts/IsLoader.cs
+Assets/OVR/Scripts/IsPanel.cs
+Assets/OVR/Scripts/IsSaver.cs
+Assets/OVR/Scripts/IsStatic.cs
+Assets/OVR/Scripts/IsTerrain.cs
+Assets/OVR/Scripts/IsWhiteboard.cs
+Assets/OVR/Scripts/SaveScene.cs
+Assets/OVR/Scripts/Spawn.cs
+Assets/OVR/Scripts/Teleport.cs
+Assets/OVR/Scripts/TouchControllers.cs
+Assets/OVR/Scripts/VirtualHand.cs
+Assets/OVR/Scripts/isWall.cs
+Assets/OVR/Scripts/selectedMat.cs
+"Assets/SKY city lite/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs"
+"Assets/SKY city lite/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs"
+"Assets/SKY city lite/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs"
+"Assets/SKY city lite/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs"
+"Assets/SKY city lite/Standard Assets/Characters/RollerBall/Scripts/Ball.cs"
+"Assets/SKY city lite/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs"
+"Assets/SKY city lite/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs"
+"Assets/SKY city lite/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs"
+"Assets/SKY city lite/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs"
+"Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs"
+"Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs"
+"Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs"
+"Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs"
+"Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs"
+"Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs"
+"Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs"
+"Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs"
+"Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs"
+"Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs"
+"Assets/SKY city lite/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs"
+"Assets/SKY city lite/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs"
+"Assets/SKY city lite/Standard Assets/Utility/ActivateTrigger.cs"
+"Assets/SKY city lite/Standard Assets/Utility/AutoMobileShaderSwitch.cs"
+"Assets/SKY city lite/Standard Assets/Utility/AutoMoveAndRotate.cs"
+"Assets/SKY city lite/Standard Assets/Utility/CameraRefocus.cs"
+"Assets/SKY city lite/Standard Assets/Utility/CurveControlledBob.cs"
+"Assets/SKY city lite/Standard Assets/Utility/DragRigidbody.cs"
+"Assets/SKY city lite/Standard Assets/Utility/DynamicShadowSettings.cs"
+"Assets/SKY city lite/Standard Assets/Utility/FOVKick.cs"
+"Assets/SKY city lite/Standard Assets/Utility/FPSCounter.cs"
+"Assets/SKY city lite/Standard Assets/Utility/FollowTarget.cs"
+"Assets/SKY city lite/Standard Assets/Utility/ForcedReset.cs"
+"Assets/SKY city lite/Standard Assets/Utility/LerpControlledBob.cs"
+"Assets/SKY city lite/Standard Assets/Utility/ObjectResetter.cs"
+"Assets/SKY city lite/Standard Assets/Utility/ParticleSystemDestroyer.cs"
+"Assets/SKY city lite/Standard Assets/Utility/PlatformSpecificContent.cs"
+"Assets/SKY city lite/Standard Assets/Utility/SimpleActivatorMenu.cs"
+"Assets/SKY city lite/Standard Assets/Utility/SimpleMouseRotator.cs"
+"Assets/SKY city lite/Standard Assets/Utility/SmoothFollow.cs"
+"Assets/SKY city lite/Standard Assets/Utility/TimedObjectActivator.cs"
+"Assets/SKY city lite/Standard Assets/Utility/TimedObjectDestructor.cs"
+"Assets/SKY city lite/Standard Assets/Utility/WaypointCircuit.cs"
+"Assets/SKY city lite/Standard Assets/Utility/WaypointProgressTracker.cs"
+"Assets/Symmetra Turrets/Scripts/TurretSeeker.cs"
+"Assets/ToonBot/ToonBot(Free) Assets/Controller/RobotTestScriptFree.cs"
+Assets/VolumetricLines/ExampleScenes/ExampleScripts/CannonBehavior.cs
+Assets/VolumetricLines/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs
+Assets/VolumetricLines/ExampleScenes/ExampleScripts/ShotBehavior.cs
+Assets/VolumetricLines/Scripts/SetFovGlobalShaderVariable.cs
+Assets/VolumetricLines/Scripts/Utils/ExposePropertyAttribute.cs
+Assets/VolumetricLines/Scripts/Utils/TransformExtensionMethods.cs
+Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs
+Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs
+Assets/VolumetricLines/Scripts/VolumetricMultiLineBehavior.cs
+"Assets/Wave Shooter Assets/Scripts/DestinationHealth.cs"
+"Assets/Wave Shooter Assets/Scripts/EnemyDeathSoundManager.cs"
+"Assets/Wave Shooter Assets/Scripts/EnemyLocomotion.cs"
+"Assets/Wave Shooter Assets/Scripts/EnemySpawner.cs"
+"Assets/Wave Shooter Assets/Scripts/alwaysStanding.cs"
+"Assets/Wave Shooter Assets/Scripts/isDestination.cs"
+Assets/ZRNAssets/005339_08932_25_14/Scripts/AmbientController.cs
+Assets/ZRNAssets/005339_08932_25_14/Scripts/CameraController.cs
+Assets/ZRNAssets/005339_08932_25_14/Scripts/FlyThroughController.cs
+Assets/ZRNAssets/005339_08932_25_14/Scripts/MoveCamera.cs
+Assets/ZRNAssets/005339_08932_25_14/Scripts/Util/SetFPS.cs
+Assets/ZRNAssets/005339_08932_25_14/Scripts/Util/ViewFPS.cs
+Assets/ZRNAssets/005339_08932_25_14/Scripts/ZRNGUIController.cs
+Assets/ZRNAssets/Cars/Scripts/AICarMove.cs
+Assets/ZRNAssets/PQAssets/Query-Chan/Scripts/CameraAction.cs
+Assets/ZRNAssets/PQAssets/Query-Chan/Scripts/GUIController.cs
+Assets/ZRNAssets/PQAssets/Query-Chan/Scripts/GUIControllerFlying.cs
+Assets/ZRNAssets/PQAssets/Query-Chan/Scripts/QueryAnimationController.cs
+Assets/ZRNAssets/PQAssets/Query-Chan/Scripts/QueryEmotionalController.cs
+Assets/ZRNAssets/PQAssets/Query-Chan/Scripts/QuerySoundController.cs
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity
